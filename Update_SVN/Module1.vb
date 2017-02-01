@@ -5,7 +5,6 @@ Imports System.IO
 Module Module1
 
     Sub Main()
-
         Dim wcPath As String = Directory.GetCurrentDirectory()                          'get directory
         Console.WriteLine(wcPath, Environment.NewLine)                                  'looks nice
         Console.WriteLine("Wait for update to finish!", Environment.NewLine)            'looks better
